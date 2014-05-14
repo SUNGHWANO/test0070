@@ -1,0 +1,89 @@
+@CHARSET "UTF-8";
+
+/* 슬라이드 */
+* {
+  margin: 0px;
+}
+/* #content{
+	position: absolute;
+} */
+
+
+#slide {
+  height:100%; width:104px; overflow:hidden; 
+  background: #ccc;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#input {
+	width: 100px;
+	height: 18px;
+	margin-top: 18px;
+}
+
+#icons {
+  height: 830px; width:129px; overflow:auto;
+  margin-left: 19px;
+  margin-top: 20px;
+}
+
+hr {
+  width: 62px;
+  margin-top: 16px;
+  margin-bottom: 16px;  
+}
+
+.font {
+	text-align: center;
+	width: 65px;
+	color: white;
+}
+
+
+/* 슬라이드 끝 */ 
+
+
+/* 좌측 메뉴 */
+#menuLeft { border: 1px solid #999; 
+display: block; width: 30px; height: 30px; }
+
+
+#content {
+	margin-top: 20%;
+}
+
+
+/* 메인아이콘 */
+#iconMainDiv { width: 300px; height: 340px; margin: 0px auto; position: relative; }
+
+.iconMain { position: absolute;}
+.iconMain.start { top: 142px; left: 118px; }
+
+.iconMain.center { left: 118px; }
+.iconMain.left { left: 10px; }
+.iconMain.right { right: 10px; }
+.iconMain.center.top { top: 10px; }
+.iconMain.left.top, .right.top { top: 80px; }
+.iconMain.left.bottom, .right.bottom { top: 205px; } 
+.iconMain.center.bottom { top: 275px; } 
+
+
+
+/* Result Pie ======================== */
+
+#date {
+height: 100px; text-align: center; line-height: 100px; position: relative; }
+#date h1 { font-size: 400%; font-weight: bold; margin: 0;}
+#date span { position: absolute; }
+#date span.left { left: 40px; }
+#date span.right { right: 40px; }
+
+/* 파이차트 */
+#pieChart { margin-left: 30px; }
+
+/* 결과창 하단 메뉴 */
+#resultFooter { position: absolute; bottom: 20px; right: 20px;}
+#resultFooter a { display: inline-block; margin-left: 5px; }
+#resultFooter img { width: 50px; height: 50px; }
