@@ -14,7 +14,7 @@
 
 
 #slide {
-  height:620px; width:104px; overflow:hidden; 
+  height:533px;  px; width:104px; overflow:hidden; 
   background: #ccc;
   position: absolute;
   left: 0;
@@ -28,7 +28,7 @@
 }
 
 #icons {
-  height:582px; width:129px; overflow:auto;
+  height:478px; width:129px; overflow:auto;
   margin-left: 19px;
   margin-top: 13px;
 }
@@ -57,20 +57,50 @@ hr {
 }
 
 /* 갤럭시 디스플레이 레이아웃 */
-#blank { height: 60px;}
-/* #layout { border: 1px solid #000; 
-margin: 50px auto; width: 360px; height: 620px; position: relative; } */
+
+#layout { border: 1px solid #000;
+margin: 50px auto; width: 320px; height: 533px; position: relative;}
 
 /* 좌측 메뉴 */
 #menuLeft { border: 1px solid #999; 
 display: block; width: 30px; height: 30px; }
 
 
+
+.a1{
+  margin-top: 53px;
+  margin-left: 191px;
+}
+.a1 img {
+  bottom: 20px; right: 20px;
+  width: 50px; height: 50px;
+}
+
+.a2{
+	margin-top: 53px;
+	margin-left: 230px;
+}
+.a2 img {
+	position: absolute;
+	margin-top: -107px;
+	width: 50px; height: 50px;
+	margin-left: 20px;
+
+}
+
+#content {
+  margin-top: 34px;
+}
+
+
+
+
 /* 메인아이콘 */
 #iconMainDiv { width: 300px; height: 340px; margin: 0px auto; position: relative; }
 
 .iconMain { position: absolute;}
-.iconMain.start { top: 142px; left: 118px; }
+.iconStart { position: absolute; top: 142px; left: 118px; }
+
 
 .iconMain.center { left: 118px; }
 .iconMain.left { left: 10px; }
@@ -80,19 +110,25 @@ display: block; width: 30px; height: 30px; }
 .iconMain.left.bottom, .right.bottom { top: 205px; } 
 .iconMain.center.bottom { top: 275px; } 
 
+/* 타이머 */
+#result { width: 64px; height: 64px; 
+line-height: 64px; text-align: center; font-weight: bolder; font-size: 145%; }
+
+
 
 
 /* Result Pie ======================== */
 
 #date {
-height: 100px; text-align: center; line-height: 100px; position: relative; }
-#date h1 { font-size: 400%; font-weight: bold; margin: 0;}
+height: 60px; text-align: center; line-height: 100px; position: relative; }
+#date h1 { font-size: 400%; font-weight: bold; margin: 0; }
 #date span { position: absolute; }
 #date span.left { left: 40px; }
 #date span.right { right: 40px; }
 
 /* 파이차트 */
-#pieChart { margin-left: 30px; }
+#pieChart { margin-left: 35px; margin-top:20px;}
+.pieChart_legend {margin-top: 23px;}
 
 /* 결과창 하단 메뉴 */
 #resultFooter { position: absolute; bottom: 20px; right: 20px;}
@@ -102,10 +138,10 @@ height: 100px; text-align: center; line-height: 100px; position: relative; }
 
 /* Result List = rt* ======================= */
 
-#resultList { height: 400px; width: 340px; overflow: auto; }    
-#rtScroll { overflow: hidden; position:absolute; height: 385px; width:300px; margin-left: 36px; margin-top: 15px; } 
+#resultList { height: 319px; width: 340px; overflow: auto; margin-top: 20px;}    
+#rtScroll { overflow: hidden; position:absolute; height: 385px; width:300px; margin-left: 30px; margin-top: 40px; } 
 #rtTable { height: 70px;}
 #rtImage{ /* position: absolute; */ text-align: center; margin-top: -6px; margin-left: -280px; padding-top: 10px; }
-#rtName{ text-align: center; height: 20px; margin-left: 52px; margin-top: -10px; width: 130px; display: block; }
-#rtTime{ text-align: center; float:right; margin-right: 40px; margin-top: -10px; }
+#rtName{ text-align: center; height: 20px; margin-left: 52px; margin-top: -10px; width: 105px; display: block; }
+#rtTime{ text-align: center; float:right; margin-right: 66px; margin-top: -10px; }
 #resultList img { width: 40px; height: 40px; margin-bottom: -4%; }
